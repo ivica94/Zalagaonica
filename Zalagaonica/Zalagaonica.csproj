@@ -56,6 +56,12 @@
     <Compile Include="DodavanjeArtikala.Designer.cs">
       <DependentUpon>DodavanjeArtikala.cs</DependentUpon>
     </Compile>
+    <Compile Include="DodavanjeZalagaca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodavanjeZalagaca.Designer.cs">
+      <DependentUpon>DodavanjeZalagaca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DodavanjeArtikala.resx">

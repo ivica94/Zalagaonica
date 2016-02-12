@@ -1,1 +1,2 @@
 c:\users\ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.exe.config
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.exe.config

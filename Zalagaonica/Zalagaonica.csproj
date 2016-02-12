@@ -99,6 +99,9 @@
     <EmbeddedResource Include="DodavanjeArtikala.resx">
       <DependentUpon>DodavanjeArtikala.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DodavanjeZalagaca.resx">
+      <DependentUpon>DodavanjeZalagaca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DodavanjeZaposlenog.resx">
       <DependentUpon>DodavanjeZaposlenog.cs</DependentUpon>
     </EmbeddedResource>

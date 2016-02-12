@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zalagaonica.DomanModel
 {
-    public class ZaposleniClass
+    public class ZalagacClass
     {
     }
 }

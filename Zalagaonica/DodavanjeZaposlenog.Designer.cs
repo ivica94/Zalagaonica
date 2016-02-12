@@ -32,13 +32,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBoxIme = new System.Windows.Forms.TextBox();
+            this.textBoxPrezime = new System.Windows.Forms.TextBox();
+            this.textBoxBrojtelefona = new System.Windows.Forms.TextBox();
+            this.textBoxJMBG = new System.Windows.Forms.TextBox();
+            this.textBoxIspostava = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.buttonDodaj = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBoxAdresa = new System.Windows.Forms.TextBox();
+            this.textBoxPlata = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -53,7 +57,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 66);
+            this.label2.Location = new System.Drawing.Point(20, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 1;
@@ -62,7 +66,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 137);
+            this.label3.Location = new System.Drawing.Point(22, 103);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 13);
             this.label3.TabIndex = 2;
@@ -71,51 +75,51 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 103);
+            this.label4.Location = new System.Drawing.Point(-1, 136);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Broj telefona";
             // 
-            // textBox1
+            // textBoxIme
             // 
-            this.textBox1.Location = new System.Drawing.Point(84, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 4;
+            this.textBoxIme.Location = new System.Drawing.Point(84, 30);
+            this.textBoxIme.Name = "textBoxIme";
+            this.textBoxIme.Size = new System.Drawing.Size(100, 20);
+            this.textBoxIme.TabIndex = 4;
             // 
-            // textBox2
+            // textBoxPrezime
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 66);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.textBoxPrezime.Location = new System.Drawing.Point(83, 66);
+            this.textBoxPrezime.Name = "textBoxPrezime";
+            this.textBoxPrezime.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPrezime.TabIndex = 5;
             // 
-            // textBox3
+            // textBoxBrojtelefona
             // 
-            this.textBox3.Location = new System.Drawing.Point(84, 130);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 6;
+            this.textBoxBrojtelefona.Location = new System.Drawing.Point(83, 133);
+            this.textBoxBrojtelefona.Name = "textBoxBrojtelefona";
+            this.textBoxBrojtelefona.Size = new System.Drawing.Size(98, 20);
+            this.textBoxBrojtelefona.TabIndex = 6;
             // 
-            // textBox4
+            // textBoxJMBG
             // 
-            this.textBox4.Location = new System.Drawing.Point(84, 100);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 7;
+            this.textBoxJMBG.Location = new System.Drawing.Point(83, 100);
+            this.textBoxJMBG.Name = "textBoxJMBG";
+            this.textBoxJMBG.Size = new System.Drawing.Size(100, 20);
+            this.textBoxJMBG.TabIndex = 7;
             // 
-            // textBox5
+            // textBoxIspostava
             // 
-            this.textBox5.Location = new System.Drawing.Point(84, 168);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(198, 20);
-            this.textBox5.TabIndex = 8;
+            this.textBoxIspostava.Location = new System.Drawing.Point(84, 164);
+            this.textBoxIspostava.Name = "textBoxIspostava";
+            this.textBoxIspostava.Size = new System.Drawing.Size(97, 20);
+            this.textBoxIspostava.TabIndex = 8;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 171);
+            this.label5.Location = new System.Drawing.Point(22, 223);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 9;
@@ -123,25 +127,61 @@
             // 
             // buttonDodaj
             // 
-            this.buttonDodaj.Location = new System.Drawing.Point(183, 238);
+            this.buttonDodaj.Location = new System.Drawing.Point(126, 246);
             this.buttonDodaj.Name = "buttonDodaj";
             this.buttonDodaj.Size = new System.Drawing.Size(75, 23);
             this.buttonDodaj.TabIndex = 10;
             this.buttonDodaj.Text = "Dodaj";
             this.buttonDodaj.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 167);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Ispostava";
+            // 
+            // textBoxAdresa
+            // 
+            this.textBoxAdresa.Location = new System.Drawing.Point(83, 220);
+            this.textBoxAdresa.Name = "textBoxAdresa";
+            this.textBoxAdresa.Size = new System.Drawing.Size(196, 20);
+            this.textBoxAdresa.TabIndex = 12;
+            // 
+            // textBoxPlata
+            // 
+            this.textBoxPlata.Location = new System.Drawing.Point(83, 194);
+            this.textBoxPlata.Name = "textBoxPlata";
+            this.textBoxPlata.Size = new System.Drawing.Size(98, 20);
+            this.textBoxPlata.TabIndex = 13;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(22, 197);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Plata";
+            // 
             // DodavanjeZaposlenog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(315, 300);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBoxPlata);
+            this.Controls.Add(this.textBoxAdresa);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.buttonDodaj);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxIspostava);
+            this.Controls.Add(this.textBoxJMBG);
+            this.Controls.Add(this.textBoxBrojtelefona);
+            this.Controls.Add(this.textBoxPrezime);
+            this.Controls.Add(this.textBoxIme);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -159,12 +199,16 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBoxIme;
+        private System.Windows.Forms.TextBox textBoxPrezime;
+        private System.Windows.Forms.TextBox textBoxBrojtelefona;
+        private System.Windows.Forms.TextBox textBoxJMBG;
+        private System.Windows.Forms.TextBox textBoxIspostava;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button buttonDodaj;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBoxAdresa;
+        private System.Windows.Forms.TextBox textBoxPlata;
+        private System.Windows.Forms.Label label7;
     }
 }

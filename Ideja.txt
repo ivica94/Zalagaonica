@@ -1,0 +1,17 @@
+
+Covek donese nesto u zalagaonicu
+to se da na procenu, ako mu odgovara cena
+uzimaju se osnovni podaci o zalagacu uz eventualne dodatne napomene
+potpisuje ugovor(podaci ugovor se cuvaju u bazi - pdf,rok,datum,kolicina novca..)
+Unose se podaci o onome sto je dosao da zalozi (osnovni koji su isti za sve, dodatni koji se dinamicki kreiraju)
+izmedju ostalog i slika zalozene stvari
+Dodaje se ID zaposlenog koji je obavio sve, i ID ispostave zalagaonice
+
+Vlasnik zalagaonice ima pregled nad svi zalozenim stvarima,zaposlenima,zalagacima i ugovorima
+neke od dodatnih mogucnosti su pregled ucinka svake ispostave i svakog radnika kao i portfolio zalagaca
+
+
+radnici kao i zalagaci u bazi imaju vezu sa ugvorom
+
+neke od mogucih stvari za zalog: http://www.zalog.rs/sta-je-zalog/zalog.html
+ugovor o zalogu: http://www.knjigovodstvenaagencija.com/knjigovodstvena-agencija-ugovori/knjigovodstvenaagencija.com-ugovor-o-zalozi-pokretne-stvari.pdf

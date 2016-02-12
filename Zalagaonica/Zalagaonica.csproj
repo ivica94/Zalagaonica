@@ -56,8 +56,15 @@
     <Compile Include="DodavanjeArtikala.Designer.cs">
       <DependentUpon>DodavanjeArtikala.cs</DependentUpon>
     </Compile>
+    <Compile Include="DomanModel\UgovorClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ugovor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ugovor.Designer.cs">
+      <DependentUpon>Ugovor.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DodavanjeArtikala.resx">
       <DependentUpon>DodavanjeArtikala.cs</DependentUpon>
     </EmbeddedResource>
@@ -70,6 +77,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ugovor.resx">
+      <DependentUpon>Ugovor.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

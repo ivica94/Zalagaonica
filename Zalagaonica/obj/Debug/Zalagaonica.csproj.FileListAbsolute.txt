@@ -1,1 +1,12 @@
-c:\users\ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.exe.config
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.exe.config
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.exe
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.pdb
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\bin\Debug\MongoDB.Bson.dll
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\bin\Debug\MongoDB.Driver.dll
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.csprojResolveAssemblyReference.cache
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.Form1.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.Properties.Resources.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.Ugovor.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.csproj.GenerateResource.Cache
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.exe
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.pdb

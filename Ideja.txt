@@ -13,5 +13,8 @@ neke od dodatnih mogucnosti su pregled ucinka svake ispostave i svakog radnika k
 
 radnici kao i zalagaci u bazi imaju vezu sa ugvorom
 
+zalozene strvari se cuvaju u banci
+tako da je potrebno cuvati i podatke o sefu i banci u kojima se cuvaju
+
 neke od mogucih stvari za zalog: http://www.zalog.rs/sta-je-zalog/zalog.html
 ugovor o zalogu: http://www.knjigovodstvenaagencija.com/knjigovodstvena-agencija-ugovori/knjigovodstvenaagencija.com-ugovor-o-zalozi-pokretne-stvari.pdf

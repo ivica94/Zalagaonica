@@ -34,22 +34,22 @@ namespace Zalagaonica
             var connectionString = "mongodb://localhost/?safe=true";
             var server = MongoServer.Create(connectionString);
             var db = server.GetDatabase("Zalagaonica");
-            //byte[] slika_ugovora = File.ReadAllBytes(textBox1.Text);
-            //UgovorClass ugovor = new UgovorClass
-            //{
-            //    datumPotpisivanja = dateTimePicker1.Value.ToString(),
-            //    datumIsteka = dateTimePicker2.Value.ToString(),
-            //    datNovac= Int32.Parse(textBox3.Text),
-            //    slika = slika_ugovora
-            //};
-            //var collection = db.GetCollection<UgovorClass>("ugovori");
-            //collection.Insert(ugovor);
-
-            var nc = db.GetCollection<UgovorClass>("ugovori");
-            foreach (UgovorClass item in nc.FindAll())
+            byte[] slika_ugovora = File.ReadAllBytes(textBox1.Text);
+            UgovorClass ugovor = new UgovorClass
             {
-                 MessageBox.Show(item.datumIsteka);
-            }
+                datumPotpisivanja = dateTimePicker1.Value.ToString(),
+                datumIsteka = dateTimePicker2.Value.ToString(),
+                datNovac = Int32.Parse(textBox3.Text),
+                slika = slika_ugovora
+            };
+            var collection = db.GetCollection<UgovorClass>("ugovori");
+            collection.Insert(ugovor);
+
+            //var nc = db.GetCollection<UgovorClass>("ugovori");
+            //foreach (UgovorClass item in nc.FindAll())
+            //{
+            //     MessageBox.Show(item.datumIsteka);
+            //}
         }
     }
 }

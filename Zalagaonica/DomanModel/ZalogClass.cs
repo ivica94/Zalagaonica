@@ -12,6 +12,11 @@ namespace Zalagaonica.DomanModel
     {
        public ObjectId id { get; set; }
        public String naziv { get; set; }
+       public String vrsta { get; set; }
+       public int kolicina { get; set; }
+       public MongoDBRef Ispostva { get; set; }
+       public MongoDBRef Zalagac { get; set; }
+       public MongoDBRef Ugovor { get; set; }
 
     }
 }

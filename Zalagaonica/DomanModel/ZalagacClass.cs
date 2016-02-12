@@ -10,9 +10,12 @@ namespace Zalagaonica.DomanModel
 {
     public class ZalagacClass
     {
-        public ObjectId id;
-        public String ime;
-        public String prezime;
-
+        public ObjectId id{get; set;}
+        public String ime { get; set; }
+        public String prezime{get; set;}
+        public String JMBG{get; set;}
+        public string brojTelefona{get; set;}
+        public String email{get; set;}
+        public String adresa{get; set;}
     }
 }

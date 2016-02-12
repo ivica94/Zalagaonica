@@ -10,7 +10,7 @@ namespace Zalagaonica.DomanModel
 {   
     public  class UgovorClass
     {
-        public ObjectId Id;
+        public ObjectId Id { get; set; }
         public String datumPotpisivanja { get; set; }
         public String datumIsteka { get; set; }
         public int datNovac { get; set; } 

@@ -108,6 +108,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrenutniKorisnik.cs" />
     <Compile Include="Ugovor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DodavanjeZaposlenog.resx">
       <DependentUpon>DodavanjeZaposlenog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlavnaRadnik.resx">
+      <DependentUpon>GlavnaRadnik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GlavnaVlasnik.resx">
       <DependentUpon>GlavnaVlasnik.cs</DependentUpon>

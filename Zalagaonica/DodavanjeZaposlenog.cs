@@ -47,7 +47,8 @@ namespace Zalagaonica
                 adresa = textBoxAdresa.Text,
                 plata = float.Parse(textBoxPlata.Text),
                 user= textBoxUser.Text,
-                pass=textBoxPass.Text
+                pass=textBoxPass.Text,
+                ugovori=new List<MongoDBRef>()
             };
             var collectionIspostave = database.GetCollection<RadnjaClass>("radnja");
             var query = Query.EQ("broj", Int32.Parse(comboBoxIspostave.SelectedItem.ToString()));

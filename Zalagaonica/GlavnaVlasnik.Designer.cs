@@ -133,6 +133,7 @@
             this.buttonPrikaz.TabIndex = 8;
             this.buttonPrikaz.Text = "Prikaz";
             this.buttonPrikaz.UseVisualStyleBackColor = true;
+            this.buttonPrikaz.Click += new System.EventHandler(this.buttonPrikaz_Click);
             // 
             // GlavnaVlasnik
             // 

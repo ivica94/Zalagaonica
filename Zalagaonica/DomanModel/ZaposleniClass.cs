@@ -19,6 +19,11 @@ namespace Zalagaonica.DomanModel
         public String brojTelefona { get; set; }
         public float plata { get; set; }
         public MongoDBRef ispostava { get; set; }
-        public MongoDBRef ugovori { get; set; }
-    }
+        public List<MongoDBRef> ugovori { get; set; }
+        public ZaposleniClass()
+        {
+            ugovori = new List<MongoDBRef>();
+        }
+
+     }
 }

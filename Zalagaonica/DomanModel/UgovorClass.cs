@@ -14,7 +14,9 @@ namespace Zalagaonica.DomanModel
         public String datumPotpisivanja { get; set; }
         public String datumIsteka { get; set; }
         public int datNovac { get; set; } 
-        public byte[] slika;
-        public 
+        public byte[] slikaUgovora;
+        public MongoDBRef Zalagac { get; set; }
+        public MongoDBRef Zalog { get; set; }
+        
     }
 }

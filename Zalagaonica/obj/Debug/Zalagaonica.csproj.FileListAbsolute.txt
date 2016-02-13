@@ -16,3 +16,15 @@ C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.exe.co
 >>>>>>> db619f65205f29d4c3e71df0fa7754a7e3bb4478
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.exe
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.pdb
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.exe
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.pdb
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\bin\Debug\MongoDB.Bson.dll
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\bin\Debug\MongoDB.Driver.dll
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.csprojResolveAssemblyReference.cache
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.Form1.resources
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeZalagaca.resources
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeZaposlenog.resources
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.Properties.Resources.resources
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.Ugovor.resources
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.csproj.GenerateResource.Cache
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeRadnje.resources

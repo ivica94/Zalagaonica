@@ -71,6 +71,12 @@
     <Compile Include="DodavanjeArtikala.Designer.cs">
       <DependentUpon>DodavanjeArtikala.cs</DependentUpon>
     </Compile>
+    <Compile Include="DodavanjeRadnje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodavanjeRadnje.Designer.cs">
+      <DependentUpon>DodavanjeRadnje.cs</DependentUpon>
+    </Compile>
     <Compile Include="DodavanjeZaposlenog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,18 @@
     <Compile Include="DomanModel\ZalagacClass.cs" />
     <Compile Include="DomanModel\ZalogClass.cs" />
     <Compile Include="DomanModel\ZaposleniClass.cs" />
+    <Compile Include="GlavnaRadnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlavnaRadnik.Designer.cs">
+      <DependentUpon>GlavnaRadnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlavnaVlasnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlavnaVlasnik.Designer.cs">
+      <DependentUpon>GlavnaVlasnik.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ugovor.cs">
@@ -98,6 +116,9 @@
     </Compile>
     <EmbeddedResource Include="DodavanjeArtikala.resx">
       <DependentUpon>DodavanjeArtikala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodavanjeRadnje.resx">
+      <DependentUpon>DodavanjeRadnje.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DodavanjeZalagaca.resx">
       <DependentUpon>DodavanjeZalagaca.cs</DependentUpon>

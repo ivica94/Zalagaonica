@@ -106,13 +106,39 @@
     <Compile Include="GlavnaVlasnik.Designer.cs">
       <DependentUpon>GlavnaVlasnik.cs</DependentUpon>
     </Compile>
+    <Compile Include="IzmenaArtikla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzmenaArtikla.Designer.cs">
+      <DependentUpon>IzmenaArtikla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzmenaRadnja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzmenaRadnja.Designer.cs">
+      <DependentUpon>IzmenaRadnja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzmenaUgovora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzmenaUgovora.Designer.cs">
+      <DependentUpon>IzmenaUgovora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzmenaZalagaca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzmenaZalagaca.Designer.cs">
+      <DependentUpon>IzmenaZalagaca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzmenaZaposlenog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzmenaZaposlenog.Designer.cs">
+      <DependentUpon>IzmenaZaposlenog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <Compile Include="TrenutniKorisnik.cs" />
-=======
-	<Compile Include="TrenutniKorisnik.cs" />
->>>>>>> d41aab0d4f5eafb21efb83b1c79fd558bd8c5f71
     <Compile Include="Ugovor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,17 +157,11 @@
     <EmbeddedResource Include="DodavanjeZaposlenog.resx">
       <DependentUpon>DodavanjeZaposlenog.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="GlavnaRadnik.resx">
       <DependentUpon>GlavnaRadnik.cs</DependentUpon>
     </EmbeddedResource>
-=======
-	<EmbeddedResource Include="GlavnaRadnik.resx">
-      <DependentUpon>GlavnaRadnik.cs</DependentUpon>
-	</EmbeddedResource>
->>>>>>> d41aab0d4f5eafb21efb83b1c79fd558bd8c5f71
     <EmbeddedResource Include="GlavnaVlasnik.resx">
-      <DependentUpon>GlavnaVlasnik.cs</DependentUpon>  
+      <DependentUpon>GlavnaVlasnik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

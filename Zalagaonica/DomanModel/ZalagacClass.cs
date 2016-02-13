@@ -15,7 +15,7 @@ namespace Zalagaonica.DomanModel
         public String prezime{get; set;}
         public String JMBG{get; set;}
         public string brojTelefona{get; set;}
-        public String email{get; set;}
+        public string email{get; set;}
         public String adresa{get; set;}
     }
 }

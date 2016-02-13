@@ -36,13 +36,13 @@
             this.textBoxPrezime = new System.Windows.Forms.TextBox();
             this.textBoxBrojtelefona = new System.Windows.Forms.TextBox();
             this.textBoxJMBG = new System.Windows.Forms.TextBox();
-            this.textBoxIspostava = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.buttonDodaj = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxAdresa = new System.Windows.Forms.TextBox();
             this.textBoxPlata = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.comboBoxIspostave = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -109,13 +109,6 @@
             this.textBoxJMBG.Size = new System.Drawing.Size(100, 20);
             this.textBoxJMBG.TabIndex = 7;
             // 
-            // textBoxIspostava
-            // 
-            this.textBoxIspostava.Location = new System.Drawing.Point(84, 164);
-            this.textBoxIspostava.Name = "textBoxIspostava";
-            this.textBoxIspostava.Size = new System.Drawing.Size(97, 20);
-            this.textBoxIspostava.TabIndex = 8;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -127,12 +120,13 @@
             // 
             // buttonDodaj
             // 
-            this.buttonDodaj.Location = new System.Drawing.Point(126, 246);
+            this.buttonDodaj.Location = new System.Drawing.Point(119, 256);
             this.buttonDodaj.Name = "buttonDodaj";
-            this.buttonDodaj.Size = new System.Drawing.Size(75, 23);
+            this.buttonDodaj.Size = new System.Drawing.Size(81, 32);
             this.buttonDodaj.TabIndex = 10;
             this.buttonDodaj.Text = "Dodaj";
             this.buttonDodaj.UseVisualStyleBackColor = true;
+            this.buttonDodaj.Click += new System.EventHandler(this.buttonDodaj_Click);
             // 
             // label6
             // 
@@ -166,18 +160,26 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Plata";
             // 
+            // comboBoxIspostave
+            // 
+            this.comboBoxIspostave.FormattingEnabled = true;
+            this.comboBoxIspostave.Location = new System.Drawing.Point(84, 167);
+            this.comboBoxIspostave.Name = "comboBoxIspostave";
+            this.comboBoxIspostave.Size = new System.Drawing.Size(97, 21);
+            this.comboBoxIspostave.TabIndex = 15;
+            // 
             // DodavanjeZaposlenog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(315, 300);
+            this.Controls.Add(this.comboBoxIspostave);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBoxPlata);
             this.Controls.Add(this.textBoxAdresa);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.buttonDodaj);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBoxIspostava);
             this.Controls.Add(this.textBoxJMBG);
             this.Controls.Add(this.textBoxBrojtelefona);
             this.Controls.Add(this.textBoxPrezime);
@@ -203,12 +205,12 @@
         private System.Windows.Forms.TextBox textBoxPrezime;
         private System.Windows.Forms.TextBox textBoxBrojtelefona;
         private System.Windows.Forms.TextBox textBoxJMBG;
-        private System.Windows.Forms.TextBox textBoxIspostava;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button buttonDodaj;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxAdresa;
         private System.Windows.Forms.TextBox textBoxPlata;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox comboBoxIspostave;
     }
 }

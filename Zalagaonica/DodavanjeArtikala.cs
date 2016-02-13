@@ -23,5 +23,10 @@ namespace Zalagaonica
             dod_inf.Width = 200;
             flowLayoutPanel1.Controls.Add(dod_inf);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

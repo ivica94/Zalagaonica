@@ -16,5 +16,12 @@ namespace Zalagaonica
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            TextBox dod_inf = new TextBox();
+            dod_inf.Width = 200;
+            flowLayoutPanel1.Controls.Add(dod_inf);
+        }
     }
 }

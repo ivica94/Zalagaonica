@@ -40,7 +40,7 @@ namespace Zalagaonica
                 datumPotpisivanja = dateTimePicker1.Value.ToString(),
                 datumIsteka = dateTimePicker2.Value.ToString(),
                 datNovac = Int32.Parse(textBox3.Text),
-                slika = slika_ugovora
+                slikaUgovora = slika_ugovora
             };
             var collection = db.GetCollection<UgovorClass>("ugovori");
             collection.Insert(ugovor);

@@ -17,6 +17,7 @@ namespace Zalagaonica.DomanModel
        public MongoDBRef Ispostva { get; set; }
        public MongoDBRef Zalagac { get; set; }
        public MongoDBRef Ugovor { get; set; }
+       public List<String> dodatniPodaci { get; set; }
 
     }
 }

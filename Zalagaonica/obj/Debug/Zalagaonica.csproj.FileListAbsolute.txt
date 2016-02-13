@@ -16,3 +16,5 @@ C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\bin\Debug\Zalagaonica.exe.co
 >>>>>>> db619f65205f29d4c3e71df0fa7754a7e3bb4478
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.exe
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.pdb
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeZalagaca.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeZaposlenog.resources

@@ -15,5 +15,6 @@ namespace Zalagaonica.DomanModel
         public String datumIsteka { get; set; }
         public int datNovac { get; set; } 
         public byte[] slika;
+        public 
     }
 }

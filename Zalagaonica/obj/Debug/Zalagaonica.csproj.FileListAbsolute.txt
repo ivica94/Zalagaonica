@@ -28,3 +28,8 @@ C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.Proper
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.Ugovor.resources
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.csproj.GenerateResource.Cache
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeRadnje.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeRadnje.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeZalagaca.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.DodavanjeZaposlenog.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.GlavnaRadnik.resources
+C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.GlavnaVlasnik.resources

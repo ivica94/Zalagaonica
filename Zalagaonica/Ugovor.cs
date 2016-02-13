@@ -17,6 +17,7 @@ namespace Zalagaonica
 {
     public partial class Ugovor : Form
     {
+        private MongoDBRef ovajUgovor;
         public Ugovor()
         {
             InitializeComponent();
@@ -44,12 +45,17 @@ namespace Zalagaonica
             };
             var collection = db.GetCollection<UgovorClass>("ugovori");
             collection.Insert(ugovor);
+            ovajUgovor = new MongoDBRef("ugovori",ugovor.Id);
 
             //var nc = db.GetCollection<UgovorClass>("ugovori");
             //foreach (UgovorClass item in nc.FindAll())
             //{
             //     MessageBox.Show(item.datumIsteka);
             //}
+        }
+        public MongoDBRef vratiUgovor()
+        {
+            return ovajUgovor;
         }
     }
 }

@@ -16,5 +16,16 @@ namespace Zalagaonica
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            MessageBox.Show("Ne pipiaj !!!!");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 dodavanjeZalogaForma = new Form1();
+            dodavanjeZalogaForma.ShowDialog();
+        }
     }
 }

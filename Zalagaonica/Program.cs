@@ -16,7 +16,7 @@ namespace Zalagaonica
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DodavanjeZaposlenog());
+            Application.Run(new Form1());
         }
     }
 }

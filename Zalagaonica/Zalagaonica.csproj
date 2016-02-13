@@ -108,7 +108,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="TrenutniKorisnik.cs" />
+=======
+	<Compile Include="TrenutniKorisnik.cs" />
+>>>>>>> d41aab0d4f5eafb21efb83b1c79fd558bd8c5f71
     <Compile Include="Ugovor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,11 +131,17 @@
     <EmbeddedResource Include="DodavanjeZaposlenog.resx">
       <DependentUpon>DodavanjeZaposlenog.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="GlavnaRadnik.resx">
       <DependentUpon>GlavnaRadnik.cs</DependentUpon>
     </EmbeddedResource>
+=======
+	<EmbeddedResource Include="GlavnaRadnik.resx">
+      <DependentUpon>GlavnaRadnik.cs</DependentUpon>
+	</EmbeddedResource>
+>>>>>>> d41aab0d4f5eafb21efb83b1c79fd558bd8c5f71
     <EmbeddedResource Include="GlavnaVlasnik.resx">
-      <DependentUpon>GlavnaVlasnik.cs</DependentUpon>
+      <DependentUpon>GlavnaVlasnik.cs</DependentUpon>  
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

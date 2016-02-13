@@ -16,7 +16,7 @@ namespace Zalagaonica
        }
        public static void setTrenutniKorisnik(ZaposleniClass trenutni_korisnik)
        {
-           trenutniKorisnik = trenutni_korisnik;
+           trenutniKorisnik = trenutni_korisnik; 
        }
 
     }

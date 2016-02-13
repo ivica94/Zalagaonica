@@ -34,12 +34,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxIme = new System.Windows.Forms.TextBox();
+            this.textBoxPrezime = new System.Windows.Forms.TextBox();
+            this.textBoxJMBG = new System.Windows.Forms.TextBox();
+            this.textBoxBrojTelefona = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.textBoxAdresa = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -97,56 +97,57 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "JMBG";
             // 
-            // textBox1
+            // textBoxIme
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(153, 20);
-            this.textBox1.TabIndex = 6;
+            this.textBoxIme.Location = new System.Drawing.Point(110, 25);
+            this.textBoxIme.Name = "textBoxIme";
+            this.textBoxIme.Size = new System.Drawing.Size(153, 20);
+            this.textBoxIme.TabIndex = 6;
             // 
-            // textBox2
+            // textBoxPrezime
             // 
-            this.textBox2.Location = new System.Drawing.Point(110, 67);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(153, 20);
-            this.textBox2.TabIndex = 7;
+            this.textBoxPrezime.Location = new System.Drawing.Point(110, 67);
+            this.textBoxPrezime.Name = "textBoxPrezime";
+            this.textBoxPrezime.Size = new System.Drawing.Size(153, 20);
+            this.textBoxPrezime.TabIndex = 7;
             // 
-            // textBox3
+            // textBoxJMBG
             // 
-            this.textBox3.Location = new System.Drawing.Point(110, 107);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(153, 20);
-            this.textBox3.TabIndex = 8;
+            this.textBoxJMBG.Location = new System.Drawing.Point(110, 107);
+            this.textBoxJMBG.Name = "textBoxJMBG";
+            this.textBoxJMBG.Size = new System.Drawing.Size(153, 20);
+            this.textBoxJMBG.TabIndex = 8;
             // 
-            // textBox4
+            // textBoxBrojTelefona
             // 
-            this.textBox4.Location = new System.Drawing.Point(110, 149);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(153, 20);
-            this.textBox4.TabIndex = 9;
+            this.textBoxBrojTelefona.Location = new System.Drawing.Point(110, 149);
+            this.textBoxBrojTelefona.Name = "textBoxBrojTelefona";
+            this.textBoxBrojTelefona.Size = new System.Drawing.Size(153, 20);
+            this.textBoxBrojTelefona.TabIndex = 9;
             // 
-            // textBox5
+            // textBoxEmail
             // 
-            this.textBox5.Location = new System.Drawing.Point(110, 189);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(190, 20);
-            this.textBox5.TabIndex = 10;
+            this.textBoxEmail.Location = new System.Drawing.Point(110, 189);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(190, 20);
+            this.textBoxEmail.TabIndex = 10;
             // 
-            // textBox6
+            // textBoxAdresa
             // 
-            this.textBox6.Location = new System.Drawing.Point(110, 224);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(190, 20);
-            this.textBox6.TabIndex = 11;
+            this.textBoxAdresa.Location = new System.Drawing.Point(110, 224);
+            this.textBoxAdresa.Name = "textBoxAdresa";
+            this.textBoxAdresa.Size = new System.Drawing.Size(190, 20);
+            this.textBoxAdresa.TabIndex = 11;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(143, 291);
+            this.button1.Location = new System.Drawing.Point(153, 270);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(96, 36);
             this.button1.TabIndex = 12;
             this.button1.Text = "Dodaj";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // DodavanjeZalagaca
             // 
@@ -154,12 +155,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 340);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxAdresa);
+            this.Controls.Add(this.textBoxEmail);
+            this.Controls.Add(this.textBoxBrojTelefona);
+            this.Controls.Add(this.textBoxJMBG);
+            this.Controls.Add(this.textBoxPrezime);
+            this.Controls.Add(this.textBoxIme);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -181,12 +182,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxIme;
+        private System.Windows.Forms.TextBox textBoxPrezime;
+        private System.Windows.Forms.TextBox textBoxJMBG;
+        private System.Windows.Forms.TextBox textBoxBrojTelefona;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.TextBox textBoxAdresa;
         private System.Windows.Forms.Button button1;
     }
 }

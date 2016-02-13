@@ -14,8 +14,15 @@ namespace Zalagaonica.DomanModel
         public String ime { get; set; }
         public String prezime{get; set;}
         public String JMBG{get; set;}
-        public string brojTelefona{get; set;}
-        public string email{get; set;}
+        public String brojTelefona { get; set; }
+        public String email { get; set; }
         public String adresa{get; set;}
+        public List<MongoDBRef> ugovori;
+        public List<MongoDBRef> zalozi;
+        public ZalagacClass()
+        {
+            ugovori = new List<MongoDBRef>();
+            zalozi = new List<MongoDBRef>();
+        }
     }
 }

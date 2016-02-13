@@ -45,7 +45,9 @@ namespace Zalagaonica
                 JMBG = textBoxJMBG.Text,
                 brojTelefona = textBoxBrojtelefona.Text,
                 adresa = textBoxAdresa.Text,
-                plata = float.Parse(textBoxPlata.Text)
+                plata = float.Parse(textBoxPlata.Text),
+                user= textBoxUser.Text,
+                pass=textBoxPass.Text
             };
             var collectionIspostave = database.GetCollection<RadnjaClass>("radnja");
             var query = Query.EQ("broj", Int32.Parse(comboBoxIspostave.SelectedItem.ToString()));

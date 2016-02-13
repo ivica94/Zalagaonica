@@ -15,6 +15,7 @@ namespace Zalagaonica
         public DodavanjeZaposlenog()
         {
             InitializeComponent();
+
         }
     }
 }

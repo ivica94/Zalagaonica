@@ -163,6 +163,15 @@
     <EmbeddedResource Include="GlavnaVlasnik.resx">
       <DependentUpon>GlavnaVlasnik.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IzmenaRadnja.resx">
+      <DependentUpon>IzmenaRadnja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzmenaZalagaca.resx">
+      <DependentUpon>IzmenaZalagaca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzmenaZaposlenog.resx">
+      <DependentUpon>IzmenaZaposlenog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

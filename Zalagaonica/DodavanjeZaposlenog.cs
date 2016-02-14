@@ -59,7 +59,19 @@ namespace Zalagaonica
             ZaposleniClass zap = collectionZaposleni.FindOne(query2);
             rad.radnici.Add(new MongoDBRef("zaposleni", zap.Id));
             collectionIspostave.Save(rad);
+            MessageBox.Show("Uspesno ste dodali zaposlenog!!!");
+            clearAll();
         }
-
+        private void clearAll()
+        {
+            textBoxIme.Clear();
+            textBoxAdresa.Clear();
+            textBoxBrojtelefona.Clear();
+            textBoxJMBG.Clear();
+            textBoxPass.Clear();
+            textBoxPlata.Clear();
+            textBoxPrezime.Clear();
+            textBoxUser.Clear();
+        }
     }
 }

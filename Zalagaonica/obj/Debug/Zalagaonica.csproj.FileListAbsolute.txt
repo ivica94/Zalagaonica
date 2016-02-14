@@ -35,3 +35,6 @@ C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj
 C:\Users\Ivica\documents\visual studio 2013\Projects\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.GlavnaVlasnik.resources
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.GlavnaRadnik.resources
 C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.GlavnaVlasnik.resources
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.IzmenaRadnja.resources
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.IzmenaZalagaca.resources
+C:\Users\Milan\Documents\vs\Zalagaonica\Zalagaonica\obj\Debug\Zalagaonica.IzmenaZaposlenog.resources

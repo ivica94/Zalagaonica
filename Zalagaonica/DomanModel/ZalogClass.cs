@@ -14,6 +14,7 @@ namespace Zalagaonica.DomanModel
        public String naziv { get; set; }
        public String vrsta { get; set; }
        public int kolicina { get; set; }
+       public byte[] slikaZaloga { get; set; } 
        public MongoDBRef Ispostva { get; set; }
        public MongoDBRef Zalagac { get; set; }
        public MongoDBRef Ugovor { get; set; }
